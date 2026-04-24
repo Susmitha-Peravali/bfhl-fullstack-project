@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import './App.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://bfhl-fullstack-project.onrender.com';
 
 // ─── Tree Node Component ─────────────────────────────────────────────────────
 function TreeNode({ node, children, depth = 0 }) {
